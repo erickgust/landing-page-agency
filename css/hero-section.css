@@ -1,0 +1,32 @@
+.hero-section {
+  display: flex;
+  background-image: url(../assets/hero-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3.5rem;
+  align-items: center;
+}
+
+.hero-section > .text {
+  padding-left: 7rem;
+  color: #FFF;
+  flex: 1;
+}
+
+.hero-section > .text > .title {
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.hero-section > .text > .desc {
+  max-width: 47rem;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  line-height: 1.5;
+}
+
+.hero-section > .image {
+  border-bottom-right-radius: 3.5rem;
+}

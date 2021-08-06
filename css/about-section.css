@@ -1,0 +1,35 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  background-color: #14213D;
+  background-image: url(../assets/about-background.svg);
+  background-size: cover;
+  height: 32.6rem;
+  width: 72.22%;
+  min-width: 104rem;
+  padding: 4.5rem;
+  border-radius: 3.5rem;
+  position: relative;
+}
+
+.about-section > .text {
+  color: #FFF;
+}
+
+.about-section > .text > .subtitle {
+  font-weight: 500;
+  font-size: 3.6rem;
+  margin-bottom: 3rem;
+}
+
+.about-section > .text > .desc {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.about-section > .moreinfo {
+  position: absolute;
+  bottom: 4.5rem;
+  right: 4.5rem;
+}

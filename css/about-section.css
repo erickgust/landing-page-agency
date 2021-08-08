@@ -1,7 +1,7 @@
 .about-section {
   display: flex;
   align-items: center;
-  background-color: #14213D;
+  background-color: var(--primary-color);
   background-image: url(../assets/about-background.svg);
   background-size: cover;
   height: 32.6rem;

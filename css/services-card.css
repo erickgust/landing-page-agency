@@ -1,0 +1,9 @@
+.services-card > .header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.services-card > .main-text {
+  margin-top: 1.8rem;
+}

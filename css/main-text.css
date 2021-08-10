@@ -1,0 +1,24 @@
+.main-text > .title {
+  font-weight: 700;
+  font-size: 5rem;
+  color: var(--primary-color);
+}
+
+.main-text > .subtitle {
+  font-weight: 500;
+  font-size: 3.6rem;
+  color: var(--primary-color);
+}
+
+.main-text > .desc {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: var(--text-color-2);
+}
+
+.main-text.-white > .title,
+.main-text.-white > .subtitle,
+.main-text.-white > .desc {
+  color: #FFF;
+}

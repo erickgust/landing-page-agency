@@ -22,3 +22,7 @@
 .main-text.-white > .desc {
   color: #FFF;
 }
+
+.main-text > .subtitle.-small {
+  font-size: 1.6rem;
+}

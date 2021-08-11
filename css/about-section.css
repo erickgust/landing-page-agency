@@ -12,7 +12,7 @@
   position: relative;
 }
 
-.about-section > .main-text > .subtitle {
+.about-section > .wrapper > .main-text.-subtitle {
   margin-bottom: 3rem;
 }
 

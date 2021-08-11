@@ -4,16 +4,16 @@
   margin-bottom: 6rem;
 }
 
-.client-section > .items > .main-text {
-  margin-bottom: 5.6rem;
+.client-section > .wrapper {
   text-align: center;
 }
 
-.client-section > .items > .main-text > .desc {
+.client-section > .wrapper > .main-text.-desc {
   margin-top: 2.5rem;
 }
 
-.client-section > .items > .clients {
+.client-section > .wrapper > .clients {
+  margin-top: 5.6rem;
   display: flex;
   align-items: flex-end;
   gap: 2.7rem;

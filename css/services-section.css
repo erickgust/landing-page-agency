@@ -1,17 +1,18 @@
 .services-section {
   display: flex;
+  padding: 7rem 0;
 }
 
 .services-section > .image {
   flex: 1;
   display: flex;
   justify-content: center;
-  padding: 3rem;
 }
 
 .services-section > .textinfo {
   flex: 1;
   display: flex;
+  padding-left: 4rem;
   flex-direction: column;
   justify-content: space-evenly;
 }

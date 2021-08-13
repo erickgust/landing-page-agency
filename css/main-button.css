@@ -15,3 +15,18 @@
   color: var(--primary-color);
   background-color: #FFF;
 }
+
+.main-button.-arrow {
+  border: none;
+  font-size: 0;
+  width: fit-content;
+  padding: 2.1rem;
+}
+
+.main-button.-arrow.-disabled {
+  background-color: #878D9B;
+}
+
+.main-button.-arrow.-disabled > .arrow {
+  opacity: 0.5;
+}

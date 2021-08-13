@@ -1,0 +1,21 @@
+.product-card {
+  display: block;
+  text-align: center;
+  max-width: 30rem;
+}
+
+.product-card > .cover {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 3.5rem;
+  object-fit: cover;
+}
+
+.product-card > .text {
+  margin-top: 3.6rem;
+  margin-bottom: 3.6rem;
+}
+
+.product-card > .text > .-subtitle {
+  margin-bottom: 1.4rem;
+}

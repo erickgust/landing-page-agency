@@ -21,10 +21,17 @@
   font-size: 0;
   width: fit-content;
   padding: 2.1rem;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.main-button.-arrow:not(.-disabled):hover {
+  opacity: 0.8;
 }
 
 .main-button.-arrow.-disabled {
   background-color: #878D9B;
+  cursor: not-allowed;
 }
 
 .main-button.-arrow.-disabled > .arrow {

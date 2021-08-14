@@ -1,0 +1,20 @@
+.product-section {
+  padding: 6rem 3rem;
+}
+
+.product-section > .textwrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9rem;
+}
+
+.product-section > .textwrapper > .buttons {
+  display: inherit;
+  align-items: center;
+  gap: 4rem;
+}
+
+.product-section > .cardwrapper {
+  display: flex;
+  justify-content: space-around;
+}

@@ -14,6 +14,11 @@
   gap: 4rem;
 }
 
+.product-section > .textwrapper .-subtitle {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
 .product-section > .cardwrapper {
   display: flex;
   justify-content: space-around;

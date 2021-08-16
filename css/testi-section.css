@@ -1,0 +1,38 @@
+.testi-section {
+  display: flex;
+  padding: 8rem 0;
+}
+
+.testi-section > .image {
+  flex: 2;
+}
+
+.testi-section > .image > .author {
+  border-radius: 3.5rem;
+  height: 62.2rem;
+}
+
+.testi-section > .textbtn {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.testi-section > .textbtn > .text {
+  padding-left: 2rem;
+  max-width: 65rem;
+  width: 100%;
+}
+
+.testi-section > .textbtn > .text > .-subtitle {
+  margin-bottom: 2.5rem;
+}
+
+.testi-section > .textbtn > .buttons {
+  display: flex;
+  gap: 4rem;
+  position: absolute;
+  bottom: 0;
+  right: 7rem;
+}

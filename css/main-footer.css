@@ -1,0 +1,10 @@
+.main-footer {
+  margin-top: 4rem;
+  height: 49rem;
+  background-color: var(--primary-color);
+  background-image: url(../assets/footer-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3.5rem;
+  width: 100%;
+}

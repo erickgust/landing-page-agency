@@ -30,3 +30,9 @@
 .main-text.-desc.-bigger {
   font-size: 2.4rem;
 }
+
+.main-text.-footer {
+  font-size: 2rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}

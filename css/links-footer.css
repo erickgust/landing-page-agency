@@ -1,0 +1,11 @@
+.links-footer {
+  list-style: none;
+}
+
+.links-footer > .title {
+  padding-bottom: 1rem;
+}
+
+.links-footer > .desc {
+  padding-bottom: 2rem;
+}

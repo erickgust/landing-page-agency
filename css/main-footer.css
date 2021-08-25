@@ -1,4 +1,9 @@
 .main-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5rem;
+  padding-right: 10rem;
   margin-top: 4rem;
   height: 49rem;
   background-color: var(--primary-color);
@@ -9,11 +14,17 @@
   width: 100%;
 }
 
-.main-footer > .container {
+.main-footer > .footerinfo {
   display: flex;
-  gap: 6rem;
+  justify-content: space-between;
 }
 
-.main-footer > .container > ul {
-  list-style: none;
+.main-footer > .footerinfo .main-text.-desc {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.main-footer > .footerinfo > .container {
+  display: flex;
+  gap: 9rem;
 }
